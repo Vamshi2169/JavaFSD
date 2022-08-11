@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ProductsDAO</servlet-name>
+  	<display-name>ProductsDAO</display-name>
+  	<description></description>
+  	<servlet-class>com.in.ProductsDAO</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ProductsDAO</servlet-name>
+  	<url-pattern>/ProductsDAO</url-pattern>
+  </servlet-mapping>
+</web-app>
